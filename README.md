@@ -1,6 +1,6 @@
 # 🟣 Pokémon FR/LG Shiny Hunting Macro (ESP32 + OpenCV)
 
-Nintendo Switch에서 포켓몬 FR/LG 스타팅 이로치 작업을 자동화하는 매크로 환경 구축 가이드임.
+Nintendo Switch에서 포켓몬 FR/LG 스타팅 이로치 작업을 자동화하는 매크로 환경 구축 가이드
 
 ---
 
@@ -58,6 +58,9 @@ python3 --version
 
 ### 3-2. 레포 다운로드
 1. 본 프로젝트 ZIP 다운로드 후 폴더에 압축 해제
+
+- https://github.com/seungcholcho2/switch_frlg_shiny_starters
+
 2. 아래 라이브러리 다운로드 (압축 풀지 않음)
 
 - https://github.com/esp32beans/switch_ESP32
