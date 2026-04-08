@@ -1,0 +1,33 @@
+{
+  "esp_host": "192.168.4.1",
+  "esp_port": 9999,
+
+  "cap_index": 2,
+
+  "roi_claiming": [1150, 416, 1642, 731],
+  "roi_rival": [506, 920, 776, 1043],
+  "roi_shiny": [716, 235, 926, 365],
+
+  "tpl_claiming": "assets/templates/claim.jpg",
+  "tpl_rival": "assets/templates/rival_claim.jpg",
+
+  "th_claiming": 0.86,
+  "th_rival": 0.86,
+  "rival_hit_cooldown": 3.0,
+
+  "spam_period": 0.8,
+  "tap_press": 0.12,
+  "after_seq_wait": 1.0,
+  "check_cooldown": 0.10,
+
+  "yellow_th": 0.002,
+  "yellow_lower": [18, 120, 120],
+  "yellow_upper": [40, 255, 255],
+  "black_mean_th": 15.0,
+
+  "debug_dir": "captures/debug",
+  "manual_capture_dir": "captures/debug/manual_capture",
+  "full_dir": "captures/full_frame",
+
+  "main_window": "bot | q=quit | r=manual reset | s=save ROI_SHINY now"
+}
